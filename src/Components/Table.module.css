@@ -1,0 +1,39 @@
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+tbody{
+    background-color: rgba(228, 226, 226, 0.75) ;
+    font-weight: bold;
+    
+}
+
+select{
+    font-family: monospace;
+    font-weight: bold;
+}
+
+option{
+    font-family: monospace;
+    font-weight: bold; 
+}
+
+th{
+    background-color: rgba(228, 226, 226, 0.75) ;
+    font-size: 15px;
+    padding: 5px;
+    font-family: monospace;
+    
+}
+
+td{
+    background-color: rgba(228, 226, 226, 0.75) ;
+    padding: 5px;
+    font-size: 15px;
+    font-family: monospace;
+}

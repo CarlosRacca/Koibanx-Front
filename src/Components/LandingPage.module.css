@@ -1,0 +1,21 @@
+.title{
+    display: flex;
+    margin-top: -1px;
+    padding: 10px;
+    font-size: 45px;
+    font-family: monospace;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 240, 240, 0.35) ;
+    color: ivory; 
+    text-decoration: underline;
+}
+
+.LandingPage{
+    background: url('https://wallpaperaccess.com/full/2159510.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}

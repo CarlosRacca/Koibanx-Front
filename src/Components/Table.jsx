@@ -16,7 +16,6 @@ export default function Table(){
     const indexOfFirstElement = indexOfLastElement - elementsPerPage;
     const currentElement = Data.slice(indexOfFirstElement, indexOfLastElement);
 
-
     const paginado = (pageNumber) => {
         setCurrentPage(pageNumber);
     };

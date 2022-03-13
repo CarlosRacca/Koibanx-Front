@@ -1,0 +1,66 @@
+.number{
+    color: aliceblue;
+    background-color: rgba(175, 175, 175, 0.2) ;
+    font-size: 20px;
+    font-family: monospace;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 7px;
+    padding:10px;
+    margin: 3px;
+}
+
+.paginado{
+    color: white;    
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    background-color: rgb(209, 209, 209);
+    color: rgb(5, 5, 5);
+    border-radius: 6px;
+    padding-top:-10px ;
+    border: 1px solid rgb(216, 216, 216);
+    margin-right: 2px;
+    font-family: monospace;
+}
+
+button{
+    color: aliceblue;
+    background-color: rgba(175, 175, 175, 0.5) ;
+    font-size: 15px;
+    font-family: monospace;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 7px;
+    padding:10px;
+    margin: 3px;
+    padding: auto;
+}
+
+button:hover{
+    
+    background-color:rgba(49, 48, 49, 0.4);
+    padding: auto;
+}
+

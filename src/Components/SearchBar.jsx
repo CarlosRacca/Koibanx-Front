@@ -20,7 +20,7 @@ export default function SearchBar(){
     }
 
     return (
-        <form>
+        <form className={styles.form}>
             <input value={name} type= 'text' placeholder= 'Search...' onChange={e => handleInputChange(e)} onSubmit={e => handleSubmit(e)}/>
             <button type='submit' placeholder='Buscar' onClick={e => handleSubmit(e)} onSubmit={e => handleSubmit(e)} className={styles.button}>Buscar</button>
         </form>
